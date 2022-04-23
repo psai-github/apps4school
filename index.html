@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Apps4School - Pranav Sai</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Apps4School</h1>
+      <ul class="navigation">
+
+        <li><a href="#projects" class="nav-link">Apps</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="about.html" target="_blank"class="nav-link">About Me</a></li>
+        <li><a href="https://www.youtube.com/channel/UC3VQFrTfI-sI3LZtVKFhLDg" target="_blank"class="nav-link">MyYoutube</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img src="https://assets.change.org/photos/9/ga/gd/wdgAgDuNHAYZPYF-800x450-noPad.jpg?1559329472" class="hero-img" style="height:500px" />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">What is MyApps4School?</h2>
+        <p class="bio-text">MyApps4School is an ecosystem of apps for schools that I created to make teachers,students and parents lives better. Check out the amazing apps in MyApps4School today!</p>
+      </div>
+    </section>
+
+
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="https://visitexcelsior.com/wp-content/uploads/2020/03/Ecommerce.jpg"
+            alt="ExSell"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">ExSell</h3>
+           
+          <p class="project-details">Exsell is an Ecommerce website for schools. Teachers can join create a class in their Exsell school, with the schools code and students can join the teachers Exsell classroom and start selling and buying items with their very own class currency! </p>
+          <a href="https://www.youtube.com/watch?time_continue=220&v=G4NGqJf7KSE&feature=emb_logo" target="_blank" class="project-link">Watch Demo</a>
+          <br>
+          <a href="https://exsell.herokuapp.com" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://t4.ftcdn.net/jpg/01/99/12/01/360_F_199120120_uO56bW8dB30PdrYCf8SsgOdMOl6XfGpP.jpg"
+            alt="ExRideshare"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">ExRideshare</h3>
+          <p class="project-details">
+            Exrideshare is a carpooling app for schools. It allows parents to join their childs school, and create and join carpools!
+          </p>
+          <a href="https://www.youtube.com/watch?v=EvPPRjqJb3s" target="_blank" class="project-link">Watch Demo</a>
+          <br>
+          <a href="https://exrideshare.herokuapp.com" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://previews.123rf.com/images/rawpixel/rawpixel1607/rawpixel160737393/59910321-learn-learning-education-knowledge-wisdom-studying-concept.jpg"
+            alt="ExLearn"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">ExLearn</h3>
+          <p class="project-details">
+Exlearn is an app that allows students & teachers to upload educational content. Its a place where students can go to learn about relevent things from fellow students & techers. All the content has to be approved before coming on the site.
+          </p>
+          <a href="https://exlearn.herokuapp.com" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xpzbozna" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Send"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
