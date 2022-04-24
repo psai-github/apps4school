@@ -132,44 +132,6 @@ nav ul li {
 }
 /* Hero section ends */
 
-/* More about */
-.more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-}
-/* More about ends */
-
-/* Skills section */
-.skills {
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
-}
-
-.skill-header {
-  margin-bottom: 1rem;
-}
-
-.skills-wrapper img {
-  padding: 1.25rem;
-}
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
-}
-/* Skills section ends */
 
 /* Projects section */
 .projects {
@@ -363,10 +325,10 @@ footer {
   }
 
 .hero {
-     margin-top: -7rem;
-flex-direction: column;
-    gap: 0; */
-  } 
+    margin-top: -7rem;
+    flex-direction: column;
+    gap: 0; 
+ } 
 
   .hero img {
     height: 37.5rem;
@@ -374,14 +336,11 @@ flex-direction: column;
   }
 
   .bio {
-    margin-top: -10rem;
+    margin-top: 2rem;
     width: 20.5rem;
   }
 
-  .more-about {
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
-  }
+
 
   .more-about h2 {
     text-align: center;
