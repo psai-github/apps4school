@@ -363,9 +363,9 @@ footer {
   }
 
   .hero {
-    margin-top: -1rem;
-    flex-direction: column;
-    gap: 0;
+/*     margin-top: -1rem; */
+/*     flex-direction: column;
+    gap: 0; */
   }
 
   .hero img {
@@ -374,7 +374,7 @@ footer {
   }
 
   .bio {
-    margin-top: -7rem;
+
     width: 20.5rem;
   }
 
