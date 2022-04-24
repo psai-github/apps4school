@@ -362,11 +362,11 @@ footer {
     transform: translateX(0);
   }
 
-  .hero {
-/*     margin-top: -1rem; */
-/*     flex-direction: column;
+.hero {
+     margin-top: -7rem;
+flex-direction: column;
     gap: 0; */
-  }
+  } 
 
   .hero img {
     height: 37.5rem;
@@ -374,7 +374,7 @@ footer {
   }
 
   .bio {
-
+    margin-top: -10rem;
     width: 20.5rem;
   }
 
